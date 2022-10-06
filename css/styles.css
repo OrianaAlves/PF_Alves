@@ -66,9 +66,13 @@ nav ul{
 nav a{
     color: white;
     font-size: 14px;
+    transition: 0.3s;
 }
 
-
+/* animacion */
+nav a:hover{
+    color:#b52a2c;
+}
 
 /* pagina videos */
 
@@ -84,6 +88,13 @@ nav a{
     background: #b52a2c;
     margin-top: 15px;
     color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+/* animacion */
+
+.video-card:hover {
+   transform: scale(1.05);
 }
 
 .video-card iframe{
@@ -137,7 +148,18 @@ nav a{
     color: black;
     background-color: white;
     border-radius: 15px;
+    /* animación */
+    transition: all 0.3s;
+    transition-timing-function: ease;
 }
+
+#shows-list button:hover{
+    transform: scale(1.05);
+    background-color: #b52a2c;
+    color: white;
+}
+
+
 .tour-line{
     background-color: #b52a2c;
     width: 100%;
