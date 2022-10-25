@@ -16,34 +16,31 @@ button{
 /* header */
 header{
     background: #b52a2c;
-}
 
-header img {
-    width: 30%;
-    margin-top: 15px;
-    margin-left: auto;
+    header img {
+        width: 30%;
+        margin-top: 15px;
+        margin-left: auto;
+    }
+    a {
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    div {
+        display: flex;
+        padding: 15px;
+    }
 }
-
-header a{
-    text-decoration: none;
-}
-
-header li{
-    list-style: none;
-}
-
-header div {
-    display: flex;
-    padding: 15px;
-}
+ 
 
 .redes{
     display: flex;
-}
-
-.redes img{
-    width: 20px; 
-    margin-left: 10px;  
+    img{
+        width: 20px; 
+        margin-left: 10px;  
+    }
 }
 
 
@@ -51,23 +48,20 @@ nav{
     background: black;
     padding: 10px;
     margin-top: 10px;
+    ul{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        gap: 15px;
+    }
+    a{
+        color: white;
+        font-size: 14px;
+        transition: 0.3s;
+    }
 }
 
-nav ul{
-    display: flex;
-    width: 50%;
-    margin: auto;
-    justify-content: center;
-    gap: 15px;
-}
-
-
-
-nav a{
-    color: white;
-    font-size: 14px;
-    transition: 0.3s;
-}
 
 /* animacion */
 nav a:hover{
