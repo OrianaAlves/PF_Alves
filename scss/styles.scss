@@ -203,6 +203,52 @@ footer {
     }
 }
 
+/* pagina contacto */
+
+#contacto {
+    background-image:url(/img/leather-bg.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    div {
+        width: 80%;
+        background-color: white;
+        padding: 30px;
+    }
+}
+
+.form {
+    margin-top: 15px;
+    p{
+        margin-bottom: 20px;
+        width: 65%;
+    }
+
+    input, textarea {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 2px solid #b52a2c;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: 'Figtree', sans-serif;
+        padding:15px;
+        width: 60%;
+    }
+    input{
+        height: 10px;
+    }
+    .submit{
+        background: #b52a2c;
+        color: white;
+        padding: 5px;
+        height: 30px;
+        width: 65%;
+    }
+}
+
+
 /* media queries */
 
 /* mobile */
