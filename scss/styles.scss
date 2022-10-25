@@ -60,12 +60,9 @@ nav{
         font-size: 14px;
         transition: 0.3s;
     }
-}
-
-
-/* animacion */
-nav a:hover{
-    color:#b52a2c;
+    a:hover{
+        color:#b52a2c;
+    }
 }
 
 /* pagina videos */
@@ -164,13 +161,12 @@ nav a:hover{
 }
 .tour-info{
     display: flex;
-}
-.tour-info h2,p,button {
-    flex-grow: 1;  
-}
-
-.tour-info p{
-    width: 30%;
+    h2,p,button {
+        flex-grow: 1;  
+    }
+    p{
+        width: 30%;
+    }
 }
 
 /*footer*/
@@ -183,31 +179,29 @@ footer {
     display: flex;
     justify-content: center;
     margin: auto;
+    div{
+        display: flex;
+        margin: auto;
+        width: 90%;
+        justify-content: right;
+    }
+    p {
+        width: 90%;
+        text-align: justify;
+    }
 }
 
-footer div{
-    display: flex;
-    margin: auto;
-    width: 90%;
-    justify-content: right;
-}
-
-footer p {
-    width: 90%;
-    text-align: justify;
-}
-
-.redes-footer ul{
-    display: flex;
-    gap: 10px;
-}
-
-.redes-footer img{
-    width: 15px; 
-}
-
-.redes-footer li{
-    list-style: none;
+.redes-footer {
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+    img{
+        width: 15px; 
+    }
+    li{
+        list-style: none;
+    }
 }
 
 /* media queries */
