@@ -260,7 +260,7 @@ footer p {
 /* pagina contacto */
 /* line 208, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #contacto {
-  background-image: url(/img/leather-bg.jpg);
+  background-image: url(../img/leather-bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 15px;
