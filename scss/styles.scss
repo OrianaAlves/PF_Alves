@@ -206,7 +206,7 @@ footer {
 /* pagina contacto */
 
 #contacto {
-    background-image:url(../img/leather-bg.jpg);
+    background-image:url(../img/bg.png);
     background-repeat:no-repeat;
     background-size: 100% 100%;
     padding: 15px;
@@ -214,17 +214,25 @@ footer {
     justify-content: center;
 }
 
-.form {
-    margin-top: 15px;
-    width: 80%;
+.form-container {
+    margin-top: 60px;
+    width: 75%;
     background-color: white;
-    padding: 30px;
-    p{
-        margin-bottom: 20px;
+    padding: 60px;
+    display: flex;
+
+    .form{
         width: 65%;
+        background-color: aqua;
+    }
+    p{
+        margin-top: 10px;
+        margin-bottom: 30px;
+
     }
 
     input, textarea {
+        width: 96%;
         margin-top: 5px;
         margin-bottom: 15px;
         border: 2px solid #b52a2c;
@@ -232,7 +240,6 @@ footer {
         font-size: 15px;
         font-family: 'Figtree', sans-serif;
         padding:5px;
-        width: 65%;
     }
     input{
         height: 30px;
@@ -242,7 +249,13 @@ footer {
         color: white;
         padding: 5px;
         height: 30px;
-        width: 65%;
+        width: 100%;
+    }
+    img{
+        width: 100px;
+        height: 120px;
+        margin-top: 50%;
+        margin-left: 80px;
     }
 }
 
