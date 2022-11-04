@@ -216,6 +216,7 @@ footer {
 
 .form-container {
     margin-top: 60px;
+    margin-bottom: 60px;
     width: 75%;
     background-color: white;
     padding: 60px;
@@ -223,7 +224,6 @@ footer {
 
     .form{
         width: 65%;
-        background-color: aqua;
     }
     p{
         margin-top: 10px;
@@ -251,12 +251,32 @@ footer {
         height: 30px;
         width: 100%;
     }
+
+    .checkbox {
+        margin-bottom: 20px;
+
+        div{
+            display: flex;
+            justify-content: flex-start;
+            margin-top:15px;
+        }
+        input{
+            margin: auto;
+            width: 10%;
+            height: 15px;
+        }
+        label{
+            width: 90%;
+            font-size: 10px;
+        } 
+    }
     img{
         width: 100px;
         height: 120px;
         margin-top: 50%;
         margin-left: 80px;
     }
+
 }
 
 
