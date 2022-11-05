@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'village';
+    src: url('fonts/VILLAGE.TTF') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -62,10 +70,11 @@ nav{
         justify-content: center;
         gap: 15px;
     }
-    a{
+    a {
         color: white;
         font-size: 14px;
         transition: 0.3s;
+        text-decoration: none;
     }
     a:hover{
         color:#b52a2c;
