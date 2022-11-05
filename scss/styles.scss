@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'village';
-    src: url('fonts/VILLAGE.TTF') format('truetype');
+    src: url('../fonts/VILLAGE.TTF') format('truetype');
     font-style: normal;
     font-weight: normal;
   }
@@ -20,6 +20,20 @@ button{
     border: none;
     text-decoration: none;
 }
+
+h1 {
+    font-family: "village";
+    font-size: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.line-title{
+    width: 20%;
+    height: 3px;
+    background-color: black;
+}
+
 
 /* header */
 header{
@@ -54,10 +68,6 @@ header{
         }
     }
 }
- 
-
-
-
 
 nav{
     background: black;
@@ -81,10 +91,17 @@ nav{
     }
 }
 
+ 
+#section-title{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
 /* home */
 
 #index-header {
-    width: 60,5%;
     height: 100vh;
     background-image: url(../img/home-header.png);
     background-position:center;
