@@ -19,9 +19,8 @@ header{
     background-position: center;
     background-size: cover;
     img {
-        width: 30%;
+        width: 20%;
         margin-top: 15px;
-        margin-left: auto;
     }
     a {
         text-decoration: none;
@@ -83,15 +82,16 @@ nav{
 
     #index-header-content{
         width: 30%;
-        margin-top: 150px;
+        margin-top: 100px;
         display: inline-block;
         justify-content: center;
+
         img {
             width: 100%;
         }
 
     button{
-        margin-top: 50px;
+        margin-top: 80px;
         background: black;
         color: white;
         padding: 5px;
