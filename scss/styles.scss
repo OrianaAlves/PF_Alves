@@ -17,6 +17,12 @@ body{
 }
 
 button{
+    background: black;
+    color: white;
+    padding: 5px;
+    height: 30px;
+    width: 70%;
+    height: 60px;
     border: none;
     text-decoration: none;
 }
@@ -34,7 +40,9 @@ h1 {
     background-color: black;
 }
 
-
+section{
+    padding: 50px;
+}
 /* header */
 header{
     background-image: url(../img/bg-rect.png);
@@ -92,11 +100,12 @@ nav{
 }
 
  
-#section-title{
+.section-title{
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: center;
+    text-align: center;
 }
 
 /* home */
@@ -124,18 +133,33 @@ nav{
 
     button{
         margin-top: 80px;
-        background: black;
-        color: white;
-        padding: 5px;
-        height: 30px;
-        width: 70%;
-        height: 60px;
         margin-left: 50%;
         transform: translateX(-50%);
     }
 
 
 }
+
+#merch-display {
+    display: flex;
+    gap: 10px;
+    .merch-card{
+        width: 25%;
+        height: 275px;
+        background-image: url(../img/bg-square.png);
+        background-size:contain;
+        border-radius: 15px;
+        margin-top: 150px;
+        img{
+            width: 120%;
+            position: relative;
+            margin-top: -40%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
 
 /* pagina videos */
 
