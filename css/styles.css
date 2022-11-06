@@ -173,7 +173,7 @@ nav a:hover {
 /* line 139, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-oficial #merch-display .merch-card {
   width: 25%;
-  height: 275px;
+  height: 300px;
   background-image: url(../img/bg-square.png);
   background-size: contain;
   border-radius: 15px;
