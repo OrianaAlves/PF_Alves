@@ -267,9 +267,11 @@ header{
     margin: auto;
     gap: 15px;
 }
+
 .video-card {
     width: 100%;
-    background: #b52a2c;
+    background-image: url(../img/bg-rect.png);
+    background-size: cover;
     margin-top: 15px;
     color: white;
     transition: all 0.5s;
