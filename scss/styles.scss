@@ -337,15 +337,16 @@ header {
 /*hero*/
 #tour {
     width: 100%;
-    height: 350px;
-    background-image: url("../img/tour-header.jpg");
+    height: 500px;
+    background-image: url("../img/bg.png");
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 
     img {
-        width: 70%;
+        width: 50%;
         object-fit: cover;
     }
 }
@@ -353,8 +354,6 @@ header {
 /*show list section*/
 #shows-list {
     background-color: black;
-    padding: 10%;
-    justify-content: center;
 
     div {
         margin-top: 40px;
@@ -364,44 +363,46 @@ header {
     p {
         color: white;
     }
-
-    button {
-        height: 30px;
-        width: 100px;
-        color: black;
-        background-color: white;
-        border-radius: 15px;
-        /* animación */
-        transition: all 0.3s;
-        transition-timing-function: ease;
-    }
-
-    button:hover {
-        transform: scale(1.05);
-        background-color: #b52a2c;
-        color: white;
-    }
-
 }
 
+
 .tour-line {
+    margin: auto;
     background-color: #b52a2c;
-    width: 100%;
+    width: 80%;
     height: 1px;
 }
 
 .tour-info {
+    margin: auto;
+    width: 80%;
+    height: 100px;
     display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-image: url(../img/bg-rect.png);
+    background-size: cover;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
 
     h2,
     p,
-    button {
+    a {
+        width: 20%;
         flex-grow: 1;
     }
 
-    p {
-        width: 30%;
+    .button {
+        margin-top: 50px;
+        text-align: center;
     }
+}
+
+.tour-info:hover {
+    transform: scale(1.01);
+    opacity: 85%;
 }
 
 /*footer*/
@@ -576,9 +577,11 @@ footer {
     margin-top: 50px;
     display: flex;
     gap: 50px;
-    .album-card{
+
+    .album-card {
         width: 33.3%;
-        img{
+
+        img {
             width: 100%;
         }
     }
@@ -700,24 +703,30 @@ footer {
 
     /* tour */
     .tour-info {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        height: auto;
+        display: inline-block;
+        padding-top: 20px;
+        h2,
+        p,
+        {
+            width: 100%;
+            margin-top: 5px;
+            text-align: center;
+        }
+        .button{
+            width: 85%;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+    }
+    #tour {
+        img {
+            width: 90%;
+            object-fit: cover;
+        }
     }
 
-    .tour-info h2,
-    p,
-    button {
-        margin-top: 15px;
-    }
-
-    .tour-info button {
-        width: 50% !important;
-    }
-
-    #tour img {
-        width: 90%;
-    }
 
     /* Contacto */
     .form-container {
@@ -755,22 +764,25 @@ footer {
             margin-right: 0px;
         }
     }
-    
-    #play-albums{
+
+    #play-albums {
         margin: auto;
+
         #album-display {
             display: inline-block;
             margin: auto;
             margin-top: 50px;
-            .album-card{
+
+            .album-card {
                 margin: auto;
                 width: 90%;
                 margin-bottom: 30px;
-                img{
+
+                img {
                     width: 100%;
                 }
             }
-        
+
         }
     }
 }
