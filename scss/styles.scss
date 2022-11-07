@@ -65,7 +65,7 @@ header {
     background-position: center;
     background-size: cover;
 }
-
+/* header logo */
 #logo {
     display: flex;
     padding-top: 15px;
@@ -96,6 +96,8 @@ header {
         }
     }
 }
+
+/* navegador */
 
 #nav-container {
     position: -webkit-sticky;
@@ -130,7 +132,8 @@ header {
 
 /* home */
 
-#index-header {
+/* home main*/
+#index-main {
     width: 100%;
     height: 100vh;
     background-image: url(../img/home-header.png);
@@ -141,7 +144,7 @@ header {
     align-items: center;
 }
 
-#index-header-content {
+#index-main-content {
     width: 30%;
     margin-left: 100px;
     text-align: center;
@@ -151,7 +154,7 @@ header {
         margin-bottom: 80px;
     }
 }
-
+/* merch */
 #merch-oficial {
     text-align: center;
 
@@ -197,12 +200,13 @@ header {
         }
     }
 
-    /* animacion*/
+    /* merch animacion */
     .merch-card:hover {
         opacity: 90%;
     }
 }
 
+/* ultimo album */
 #latest-album {
     background-color: black;
     display: flex;
@@ -233,7 +237,7 @@ header {
         }
     }
 }
-
+/* proximos shows */
 #next-shows {
     text-align: center;
 
@@ -309,7 +313,7 @@ header {
     }
 }
 
-/* animacion */
+/* videos animacion */
 
 .video-card:hover {
     transform: scale(1.02);
@@ -334,7 +338,7 @@ header {
 
 
 /* pagina tour */
-/*hero*/
+/* main */
 #tour {
     width: 100%;
     height: 500px;
@@ -351,7 +355,7 @@ header {
     }
 }
 
-/*show list section*/
+/* lista shows */
 #shows-list {
     background-color: black;
 
@@ -400,52 +404,13 @@ header {
     }
 }
 
+/* info tour animacion */
 .tour-info:hover {
     transform: scale(1.01);
     opacity: 85%;
 }
 
-/*footer*/
-
-footer {
-    background-color: black;
-    color: white;
-    font-size: 10px;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-
-    div {
-        display: flex;
-        margin: auto;
-        width: 90%;
-        justify-content: right;
-    }
-
-    p {
-        width: 90%;
-        text-align: justify;
-    }
-}
-
-.redes-footer {
-    ul {
-        display: flex;
-        gap: 10px;
-    }
-
-    img {
-        width: 15px;
-    }
-
-    li {
-        list-style: none;
-    }
-}
-
 /* pagina contacto */
-
 #contacto {
     background-image: url(../img/bg.png);
     background-position: center;
@@ -457,6 +422,7 @@ footer {
     justify-content: center;
 }
 
+/* formulario */
 .form-container {
     width: 75%;
     background-color: white;
@@ -548,7 +514,7 @@ footer {
 }
 
 /* pagina musica */
-
+/* musica main */
 #newest-album {
     display: flex;
     background-image: url(../img/music-main.png);
@@ -573,6 +539,7 @@ footer {
     }
 }
 
+/* discografia */
 #album-display {
     margin-top: 50px;
     display: flex;
@@ -588,6 +555,44 @@ footer {
 
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    div {
+        display: flex;
+        margin: auto;
+        width: 90%;
+        justify-content: right;
+    }
+
+    p {
+        width: 90%;
+        text-align: justify;
+    }
+}
+
+.redes-footer {
+    ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    img {
+        width: 15px;
+    }
+
+    li {
+        list-style: none;
+    }
+}
 
 /* media queries */
 
@@ -613,13 +618,14 @@ footer {
         font-size: 8px;
     }
 
-    /* index */
+    /* index media queries */
 
-    #index-header {
+    #index-main {
         width: auto;
         justify-content: center;
+        background-image: url(../img/bg.png);
 
-        #index-header-content {
+        #index-main-content {
             margin-left: 0px;
             width: 80%;
         }
@@ -696,12 +702,12 @@ footer {
         }
     }
 
-    /* videos */
+    /* videos media queries */
     #videos {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
 
-    /* tour */
+    /* tour media queries */
     .tour-info {
         height: auto;
         display: inline-block;
@@ -728,7 +734,7 @@ footer {
     }
 
 
-    /* Contacto */
+    /* Contacto media queries */
     .form-container {
         display: inline-block;
         margin: auto;
@@ -756,7 +762,7 @@ footer {
         }
     }
 
-    /* musica */
+    /* musica media queries */
     #newest-album {
 
         div {
