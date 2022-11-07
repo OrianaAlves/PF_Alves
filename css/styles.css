@@ -32,12 +32,12 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 31, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 32, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .button:hover {
   opacity: 70%;
 }
 
-/* line 35, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 36, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 h1 {
   font-family: "village";
   font-size: 45px;
@@ -45,7 +45,7 @@ h1 {
   margin-right: 15px;
 }
 
-/* line 42, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 43, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .section-title {
   display: flex;
   align-items: center;
@@ -55,27 +55,27 @@ h1 {
   margin-bottom: 150px;
 }
 
-/* line 49, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 51, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .section-title div {
   width: 20%;
   height: 3px;
   background-color: black;
 }
 
-/* line 56, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 58, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 section {
   padding: 50px;
 }
 
 /* header */
-/* line 61, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 63, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 header {
   background-image: url(../img/bg-rect.png);
   background-position: center;
   background-size: cover;
 }
 
-/* line 67, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 69, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo {
   display: flex;
   padding-top: 15px;
@@ -85,34 +85,34 @@ header {
   justify-content: space-between;
 }
 
-/* line 75, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 77, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo img {
   width: 200px;
   margin-top: 15px;
 }
 
-/* line 79, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 82, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo a {
   text-decoration: none;
 }
 
-/* line 82, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 86, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo li {
   list-style: none;
 }
 
-/* line 85, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 90, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo .redes {
   display: flex;
 }
 
-/* line 87, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 93, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #logo .redes img {
   width: 20px;
   margin-left: 10px;
 }
 
-/* line 94, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 100, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #nav-container {
   position: -webkit-sticky;
   position: sticky;
@@ -120,13 +120,13 @@ header {
   z-index: 1;
 }
 
-/* line 99, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 106, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #nav-container nav {
   background: black;
   padding: 10px;
 }
 
-/* line 102, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 110, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #nav-container nav ul {
   display: flex;
   width: 50%;
@@ -135,7 +135,7 @@ header {
   gap: 15px;
 }
 
-/* line 109, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 118, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #nav-container nav a {
   color: white;
   font-size: 14px;
@@ -143,13 +143,13 @@ header {
   text-decoration: none;
 }
 
-/* line 115, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 125, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #nav-container nav a:hover {
   color: #b52a2c;
 }
 
 /* home */
-/* line 123, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 133, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #index-header {
   width: 100%;
   height: 100vh;
@@ -161,30 +161,30 @@ header {
   align-items: center;
 }
 
-/* line 134, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 144, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #index-header-content {
   width: 30%;
   margin-left: 100px;
   text-align: center;
 }
 
-/* line 139, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 149, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #index-header-content img {
   width: 100%;
   margin-bottom: 80px;
 }
 
-/* line 145, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 155, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-oficial {
   text-align: center;
 }
 
-/* line 147, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 158, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-oficial .button {
   width: 70%;
 }
 
-/* line 152, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 163, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display {
   width: 100%;
   display: flex;
@@ -194,7 +194,7 @@ header {
   /* animacion*/
 }
 
-/* line 159, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 170, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card {
   width: 25%;
   height: 320px;
@@ -206,34 +206,34 @@ header {
   transition-timing-function: ease;
 }
 
-/* line 169, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 180, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card img {
   margin-left: -5%;
   margin-top: -30%;
   width: 110%;
 }
 
-/* line 175, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 186, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card p {
   color: white;
 }
 
-/* line 179, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 191, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card .item-name {
   font-weight: bold;
 }
 
-/* line 183, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 195, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card .item-description {
   font-size: 12px;
 }
 
-/* line 188, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 201, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #merch-display .merch-card:hover {
   opacity: 90%;
 }
 
-/* line 193, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 206, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album {
   background-color: black;
   display: flex;
@@ -243,44 +243,44 @@ header {
   height: 100vh;
 }
 
-/* line 200, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 214, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album img {
   width: 48%;
 }
 
-/* line 203, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 218, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album .latest-album-title {
   width: 35%;
 }
 
-/* line 205, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 221, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album .latest-album-title img {
   width: 100%;
 }
 
-/* line 208, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 225, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album .latest-album-title div {
   display: flex;
   gap: 30px;
   text-align: center;
 }
 
-/* line 213, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 230, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #latest-album .latest-album-title div a {
   background-color: #b52a2c;
 }
 
-/* line 220, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 237, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows {
   text-align: center;
 }
 
-/* line 222, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 240, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .section-title {
   margin-bottom: 100px;
 }
 
-/* line 226, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 244, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .show-info {
   margin: auto;
   width: 70%;
@@ -295,29 +295,31 @@ header {
   border-radius: 5px;
 }
 
-/* line 238, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 257, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .show-info .icon {
   width: 13px;
   margin-right: 5px;
 }
 
-/* line 242, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
-#next-shows .show-info h2, #next-shows .show-info p, #next-shows .show-info a {
+/* line 262, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#next-shows .show-info h2,
+#next-shows .show-info p,
+#next-shows .show-info a {
   color: white;
 }
 
-/* line 245, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 268, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .show-info a {
   text-decoration: none;
 }
 
-/* line 248, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 272, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .show-info a:hover {
   opacity: 80%;
   text-decoration: underline;
 }
 
-/* line 253, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 278, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #next-shows .button {
   width: 70%;
   padding-left: 30px;
@@ -326,7 +328,7 @@ header {
 }
 
 /* pagina videos */
-/* line 264, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 289, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #videos {
   padding: 15px;
   display: grid;
@@ -335,7 +337,7 @@ header {
   gap: 15px;
 }
 
-/* line 272, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 297, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card {
   width: 100%;
   background-image: url(../img/bg-rect.png);
@@ -346,26 +348,26 @@ header {
   transition-timing-function: ease-in;
 }
 
-/* line 281, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 306, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card iframe {
   width: 100%;
   height: 315px;
 }
 
 /* animacion */
-/* line 288, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 314, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card:hover {
   transform: scale(1.02);
 }
 
-/* line 292, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 318, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card-description {
   padding: 10px;
   font-size: 12px;
   height: 50px;
 }
 
-/* line 297, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 323, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card-description h2 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -373,14 +375,14 @@ header {
   transition-delay: 1s;
 }
 
-/* line 303, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 330, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .video-card-description h2:hover {
   text-decoration: line-through;
 }
 
 /* pagina tour */
 /*hero*/
-/* line 311, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 338, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #tour {
   width: 100%;
   height: 350px;
@@ -391,31 +393,32 @@ header {
   align-items: center;
 }
 
-/* line 319, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 347, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #tour img {
   width: 70%;
   object-fit: cover;
 }
 
 /*show list section*/
-/* line 326, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 354, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #shows-list {
   background-color: black;
   padding: 10%;
   justify-content: center;
 }
 
-/* line 330, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 359, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #shows-list div {
   margin-top: 40px;
 }
 
-/* line 333, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
-#shows-list h2, #shows-list p {
+/* line 363, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#shows-list h2,
+#shows-list p {
   color: white;
 }
 
-/* line 336, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 368, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #shows-list button {
   height: 30px;
   width: 100px;
@@ -427,37 +430,39 @@ header {
   transition-timing-function: ease;
 }
 
-/* line 346, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 379, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #shows-list button:hover {
   transform: scale(1.05);
   background-color: #b52a2c;
   color: white;
 }
 
-/* line 354, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 387, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .tour-line {
   background-color: #b52a2c;
   width: 100%;
   height: 1px;
 }
 
-/* line 359, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 393, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .tour-info {
   display: flex;
 }
 
-/* line 361, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
-.tour-info h2, .tour-info p, .tour-info button {
+/* line 396, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+.tour-info h2,
+.tour-info p,
+.tour-info button {
   flex-grow: 1;
 }
 
-/* line 364, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 402, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .tour-info p {
   width: 30%;
 }
 
 /*footer*/
-/* line 371, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 409, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 footer {
   background-color: black;
   color: white;
@@ -468,7 +473,7 @@ footer {
   margin: auto;
 }
 
-/* line 379, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 418, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 footer div {
   display: flex;
   margin: auto;
@@ -476,43 +481,42 @@ footer div {
   justify-content: right;
 }
 
-/* line 385, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 425, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 footer p {
   width: 90%;
   text-align: justify;
 }
 
-/* line 392, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 432, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .redes-footer ul {
   display: flex;
   gap: 10px;
 }
 
-/* line 396, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 437, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .redes-footer img {
   width: 15px;
 }
 
-/* line 399, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 441, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .redes-footer li {
   list-style: none;
 }
 
 /* pagina contacto */
-/* line 406, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 448, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 #contacto {
   background-image: url(../img/bg.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
   padding: 15px;
   display: flex;
   justify-content: center;
 }
 
-/* line 418, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 459, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container {
   width: 75%;
   background-color: white;
@@ -524,24 +528,25 @@ footer p {
   gap: 150px;
 }
 
-/* line 428, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 469, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .form {
   width: 50%;
 }
 
-/* line 431, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 473, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container h1 {
   margin: auto;
 }
 
-/* line 434, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 477, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container p {
   margin-top: 10px;
   margin-bottom: 30px;
 }
 
-/* line 440, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
-.form-container input, .form-container textarea {
+/* line 483, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+.form-container input,
+.form-container textarea {
   width: 96%;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -552,12 +557,12 @@ footer p {
   padding: 5px;
 }
 
-/* line 450, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 495, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container input {
   height: 30px;
 }
 
-/* line 453, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 499, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .submit {
   border: none;
   background: black;
@@ -572,19 +577,19 @@ footer p {
   height: 50px;
 }
 
-/* line 466, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 513, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .submit:hover {
   opacity: 70%;
 }
 
-/* line 470, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 517, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .checkbox {
   margin-bottom: 20px;
   display: flex;
   justify-content: flex-start;
 }
 
-/* line 475, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 522, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .checkbox div {
   display: flex;
   justify-content: flex-start;
@@ -593,76 +598,122 @@ footer p {
   flex-grow: 1;
 }
 
-/* line 482, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 530, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .checkbox input {
   margin: auto;
   width: 18px;
 }
 
-/* line 486, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 535, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container .checkbox label {
   margin-left: 5px;
   width: 90%;
   font-size: 12px;
 }
 
-/* line 492, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+/* line 542, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
 .form-container img {
   width: 95px;
   height: 183px;
+}
+
+/* pagina musica */
+/* line 551, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#newest-album {
+  display: flex;
+  background-image: url(../img/music-main.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 560, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#newest-album div {
+  margin-right: 100px;
+  width: 30%;
+}
+
+/* line 564, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#newest-album div img {
+  width: 100%;
+  box-shadow: 0px 0px 20px #110000;
+}
+
+/* line 569, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#newest-album div iframe {
+  margin-top: 15px;
+}
+
+/* line 575, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#album-display {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+/* line 579, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#album-display .album-card {
+  width: 33.3%;
+}
+
+/* line 581, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+#album-display .album-card img {
+  width: 100%;
 }
 
 /* media queries */
 /* mobile */
 @media (max-width: 767px) {
   /* general */
-  /* line 506, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 595, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   header img {
     width: 60%;
   }
-  /* line 510, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 599, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   section {
     padding-top: 30px;
     padding-bottom: 20px;
   }
-  /* line 515, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 604, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .section-title {
     margin-bottom: 25px;
   }
-  /* line 520, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 609, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   footer {
     font-size: 8px;
   }
   /* index */
-  /* line 526, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 615, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #index-header {
     width: auto;
     justify-content: center;
   }
-  /* line 529, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 619, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #index-header #index-header-content {
     margin-left: 0px;
     width: 80%;
   }
-  /* line 536, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 626, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #merch-display {
     display: inline-block;
     margin: auto;
     margin-bottom: 0px;
   }
-  /* line 540, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 631, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #merch-display .merch-card {
     width: 100%;
     height: 300px;
     margin-top: 30%;
     margin-bottom: 50px;
   }
-  /* line 545, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 637, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #merch-display .merch-card img {
     width: 100%;
     margin-left: 0px;
   }
-  /* line 552, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 644, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #latest-album {
     display: inline-block;
     margin: 0px auto;
@@ -670,99 +721,127 @@ footer p {
     height: auto;
     text-align: center;
   }
-  /* line 558, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 651, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #latest-album img {
     margin-top: 50px;
     width: 70%;
   }
-  /* line 562, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 656, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #latest-album .latest-album-title {
     margin: auto;
     text-align: center;
     width: 80%;
     margin-bottom: 50px;
   }
-  /* line 567, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 662, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #latest-album .latest-album-title div {
     display: inline-block;
     margin-top: 25px;
   }
-  /* line 571, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 667, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #latest-album .latest-album-title .button {
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 20px;
     margin-left: 0px;
   }
-  /* line 581, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 677, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #next-shows .section-title {
     margin-bottom: 50px;
   }
-  /* line 584, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 681, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #next-shows .show-info {
     display: inline-block;
     height: auto;
   }
-  /* line 587, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 685, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #next-shows .show-info h2 {
     font-size: 20px;
   }
-  /* line 590, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 689, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #next-shows .show-info p {
     font-size: 13px;
     margin-bottom: 15px;
   }
   /* videos */
-  /* line 598, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 697, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #videos {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   }
   /* tour */
-  /* line 603, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 702, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .tour-info {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  /* line 609, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
-  .tour-info h2, p, button {
+  /* line 708, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  .tour-info h2,
+  p,
+  button {
     margin-top: 15px;
   }
-  /* line 613, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 714, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .tour-info button {
     width: 50% !important;
   }
-  /* line 616, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 718, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   #tour img {
     width: 90%;
   }
   /* Contacto */
-  /* line 620, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 723, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container {
     display: inline-block;
     margin: auto;
     text-align: center;
     padding: 20px;
   }
-  /* line 625, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 729, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container .form {
     width: 100%;
   }
-  /* line 627, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 732, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container .form .submit {
     width: 100%;
   }
-  /* line 630, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 736, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container .form .checkbox {
     display: inline-block;
   }
-  /* line 632, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 739, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container .form .checkbox input {
     width: 30px;
   }
-  /* line 635, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  /* line 743, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
   .form-container .form .checkbox label {
     font-size: 15px;
+  }
+  /* musica */
+  /* line 753, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  #newest-album div {
+    width: 90%;
+    margin-right: 0px;
+  }
+  /* line 759, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  #play-albums {
+    margin: auto;
+  }
+  /* line 761, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  #play-albums #album-display {
+    display: inline-block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  /* line 765, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  #play-albums #album-display .album-card {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  /* line 769, ../../../../../Users/orialves/Desktop/Curso desarrollo web/3ra Pre entrega/scss/styles.scss */
+  #play-albums #album-display .album-card img {
+    width: 100%;
   }
 }
 

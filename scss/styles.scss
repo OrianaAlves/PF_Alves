@@ -3,7 +3,7 @@
     src: url('../fonts/VILLAGE.TTF') format('truetype');
     font-style: normal;
     font-weight: normal;
-  }
+}
 
 
 * {
@@ -12,11 +12,11 @@
 }
 
 /* estilos generales*/
-body{
+body {
     font-family: 'Figtree', sans-serif;
 }
 
-.button{
+.button {
     background: black;
     color: white;
     padding: 15px;
@@ -28,7 +28,8 @@ body{
     transition-timing-function: ease;
     margin-bottom: 50px;
 }
-.button:hover{
+
+.button:hover {
     opacity: 70%;
 }
 
@@ -39,81 +40,90 @@ h1 {
     margin-right: 15px;
 }
 
-.section-title{
+.section-title {
     display: flex;
     align-items: center;
     margin-top: 50px;
     justify-content: center;
     text-align: center;
     margin-bottom: 150px;
-    div{
+
+    div {
         width: 20%;
         height: 3px;
         background-color: black;
     }
 }
 
-section{
-    padding: 50px; 
+section {
+    padding: 50px;
 }
 
 /* header */
-header{
+header {
     background-image: url(../img/bg-rect.png);
     background-position: center;
     background-size: cover;
 }
 
-#logo{
+#logo {
     display: flex;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 50px;
-    padding-right:50px;
+    padding-right: 50px;
     justify-content: space-between;
 
     img {
         width: 200px;
         margin-top: 15px;
     }
+
     a {
         text-decoration: none;
     }
-    li{
+
+    li {
         list-style: none;
     }
-    .redes{
+
+    .redes {
         display: flex;
-        img{
-            width: 20px; 
-            margin-left: 10px;  
+
+        img {
+            width: 20px;
+            margin-left: 10px;
         }
     }
 }
 
-#nav-container{
+#nav-container {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
     z-index: 1;
-    nav{
+
+    nav {
         background: black;
         padding: 10px;
-        ul{
+
+        ul {
             display: flex;
             width: 50%;
             margin: auto;
             justify-content: center;
             gap: 15px;
         }
+
         a {
             color: white;
             font-size: 14px;
             transition: 0.3s;
             text-decoration: none;
         }
-        a:hover{
-            color:#b52a2c;
+
+        a:hover {
+            color: #b52a2c;
         }
     }
 }
@@ -124,14 +134,14 @@ header{
     width: 100%;
     height: 100vh;
     background-image: url(../img/home-header.png);
-    background-position:center;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
     align-items: center;
-    }
+}
 
-#index-header-content{
+#index-header-content {
     width: 30%;
     margin-left: 100px;
     text-align: center;
@@ -142,9 +152,10 @@ header{
     }
 }
 
-#merch-oficial{
+#merch-oficial {
     text-align: center;
-    .button{
+
+    .button {
         width: 70%;
     }
 }
@@ -156,62 +167,68 @@ header{
     margin-bottom: 80px;
     align-items: center;
 
-    .merch-card{
+    .merch-card {
         width: 25%;
         height: 320px;
         background-image: url(../img/bg-square.png);
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
         border-radius: 15px;
         transition: all 0.5s;
         transition-timing-function: ease;
 
-        img{
+        img {
             margin-left: -5%;
             margin-top: -30%;
             width: 110%;
         }
 
-        p{
+        p {
             color: white;
 
         }
-        .item-name{
+
+        .item-name {
             font-weight: bold;
         }
 
-        .item-description{
+        .item-description {
             font-size: 12px;
         }
     }
-    /* animacion*/
-    .merch-card:hover{
-        opacity:90%;
-    }
- }
 
-#latest-album{
+    /* animacion*/
+    .merch-card:hover {
+        opacity: 90%;
+    }
+}
+
+#latest-album {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
     height: 100vh;
-    img{
+
+    img {
         width: 48%;
     }
-    .latest-album-title{
+
+    .latest-album-title {
         width: 35%;
-        img{
+
+        img {
             width: 100%;
         }
-        div{
+
+        div {
             display: flex;
             gap: 30px;
             text-align: center;
 
-            a{
-               background-color: #b52a2c; 
+            a {
+                background-color: #b52a2c;
             }
         }
     }
@@ -219,11 +236,12 @@ header{
 
 #next-shows {
     text-align: center;
-    .section-title{
+
+    .section-title {
         margin-bottom: 100px;
     }
 
-    .show-info{
+    .show-info {
         margin: auto;
         width: 70%;
         height: 20px;
@@ -235,22 +253,29 @@ header{
         align-items: center;
         margin-top: 15px;
         border-radius: 5px;
-        .icon{
-            width:13px;
+
+        .icon {
+            width: 13px;
             margin-right: 5px;
         }
-        h2,p,a {
+
+        h2,
+        p,
+        a {
             color: white;
         }
+
         a {
             text-decoration: none;
         }
-        a:hover{
+
+        a:hover {
             opacity: 80%;
-            text-decoration:underline;
+            text-decoration: underline;
         }
     }
-    .button{
+
+    .button {
         width: 70%;
         padding-left: 30px;
         padding-right: 30px;
@@ -261,7 +286,7 @@ header{
 
 /* pagina videos */
 
-#videos{
+#videos {
     padding: 15px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -278,31 +303,33 @@ header{
     transition: all 0.5s;
     transition-timing-function: ease-in;
 
-    iframe{
-        width:100%;
+    iframe {
+        width: 100%;
         height: 315px;
     }
 }
+
 /* animacion */
 
 .video-card:hover {
-   transform: scale(1.02);
+    transform: scale(1.02);
 }
 
-.video-card-description{
+.video-card-description {
     padding: 10px;
     font-size: 12px;
     height: 50px;
 
-    h2{
+    h2 {
         font-size: 20px;
         margin-bottom: 5px;
         transition: all ease-in-out 0.5s;
         transition-delay: 1s;
     }
-    h2:hover{
+
+    h2:hover {
         text-decoration: line-through;
-        }
+    }
 }
 
 
@@ -316,24 +343,29 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 70%;
         object-fit: cover;
     }
 }
 
 /*show list section*/
-#shows-list{
+#shows-list {
     background-color: black;
     padding: 10%;
     justify-content: center;
-    div{
+
+    div {
         margin-top: 40px;
     }
-    h2,p{
+
+    h2,
+    p {
         color: white;
     }
-    button{
+
+    button {
         height: 30px;
         width: 100px;
         color: black;
@@ -343,25 +375,31 @@ header{
         transition: all 0.3s;
         transition-timing-function: ease;
     }
-    button:hover{
+
+    button:hover {
         transform: scale(1.05);
         background-color: #b52a2c;
         color: white;
     }
-    
+
 }
 
-.tour-line{
+.tour-line {
     background-color: #b52a2c;
     width: 100%;
     height: 1px;
 }
-.tour-info{
+
+.tour-info {
     display: flex;
-    h2,p,button {
-        flex-grow: 1;  
+
+    h2,
+    p,
+    button {
+        flex-grow: 1;
     }
-    p{
+
+    p {
         width: 30%;
     }
 }
@@ -376,12 +414,14 @@ footer {
     display: flex;
     justify-content: center;
     margin: auto;
-    div{
+
+    div {
         display: flex;
         margin: auto;
         width: 90%;
         justify-content: right;
     }
+
     p {
         width: 90%;
         text-align: justify;
@@ -389,14 +429,16 @@ footer {
 }
 
 .redes-footer {
-    ul{
+    ul {
         display: flex;
         gap: 10px;
     }
-    img{
-        width: 15px; 
+
+    img {
+        width: 15px;
     }
-    li{
+
+    li {
         list-style: none;
     }
 }
@@ -404,12 +446,11 @@ footer {
 /* pagina contacto */
 
 #contacto {
-    background-image:url(../img/bg.png);
+    background-image: url(../img/bg.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -425,19 +466,22 @@ footer {
     align-items: center;
     gap: 150px;
 
-    .form{
+    .form {
         width: 50%;
     }
+
     h1 {
         margin: auto;
     }
-    p{
+
+    p {
         margin-top: 10px;
         margin-bottom: 30px;
 
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 96%;
         margin-top: 5px;
         margin-bottom: 15px;
@@ -445,12 +489,14 @@ footer {
         border-radius: 5px;
         font-size: 15px;
         font-family: 'Figtree', sans-serif;
-        padding:5px;
+        padding: 5px;
     }
-    input{
+
+    input {
         height: 30px;
     }
-    .submit{
+
+    .submit {
         border: none;
         background: black;
         color: white;
@@ -463,7 +509,8 @@ footer {
         margin-bottom: 50px;
         height: 50px;
     }
-    .submit:hover{
+
+    .submit:hover {
         opacity: 70%;
     }
 
@@ -472,26 +519,68 @@ footer {
         display: flex;
         justify-content: flex-start;
 
-        div{
+        div {
             display: flex;
             justify-content: flex-start;
-            margin-top:15px;
+            margin-top: 15px;
             align-items: center;
             flex-grow: 1;
         }
-        input{
+
+        input {
             margin: auto;
             width: 18px;
         }
-        label{
+
+        label {
             margin-left: 5px;
             width: 90%;
             font-size: 12px;
-        } 
+        }
     }
-    img{
+
+    img {
         width: 95px;
         height: 183px;
+    }
+
+}
+
+/* pagina musica */
+
+#newest-album {
+    display: flex;
+    background-image: url(../img/music-main.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        margin-right: 100px;
+        width: 30%;
+
+        img {
+            width: 100%;
+            box-shadow: 0px 0px 20px rgb(17, 0, 0);
+        }
+
+        iframe {
+            margin-top: 15px;
+        }
+    }
+}
+
+#album-display {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    .album-card{
+        width: 33.3%;
+        img{
+            width: 100%;
+        }
     }
 
 }
@@ -500,32 +589,33 @@ footer {
 /* media queries */
 
 /* mobile */
-@media (max-width:767px){
+@media (max-width:767px) {
 
     /* general */
     header img {
         width: 60%;
     }
 
-    section{
+    section {
         padding-top: 30px;
         padding-bottom: 20px;
     }
 
-    .section-title{
+    .section-title {
         margin-bottom: 25px;
     }
 
 
-    footer{
+    footer {
         font-size: 8px;
     }
 
     /* index */
 
-    #index-header{
+    #index-header {
         width: auto;
         justify-content: center;
+
         #index-header-content {
             margin-left: 0px;
             width: 80%;
@@ -533,42 +623,48 @@ footer {
 
     }
 
-    #merch-display{
+    #merch-display {
         display: inline-block;
         margin: auto;
         margin-bottom: 0px;
-        .merch-card{
+
+        .merch-card {
             width: 100%;
             height: 300px;
             margin-top: 30%;
             margin-bottom: 50px;
-            img{
+
+            img {
                 width: 100%;
                 margin-left: 0px;
             }
         }
     }
 
-    #latest-album{
+    #latest-album {
         display: inline-block;
         margin: 0px auto;
         text-align: center;
         height: auto;
         text-align: center;
-        img{
+
+        img {
             margin-top: 50px;
             width: 70%;
         }
-        .latest-album-title{
+
+        .latest-album-title {
             margin: auto;
             text-align: center;
             width: 80%;
             margin-bottom: 50px;
-            div{
+
+            div {
                 display: inline-block;
                 margin-top: 25px;
             }
-            .button{
+
+            .button {
                 padding-top: 15px;
                 padding-bottom: 15px;
                 margin-bottom: 20px;
@@ -578,15 +674,18 @@ footer {
     }
 
     #next-shows {
-        .section-title{
+        .section-title {
             margin-bottom: 50px;
         }
-        .show-info{
+
+        .show-info {
             display: inline-block;
             height: auto;
-            h2{
+
+            h2 {
                 font-size: 20px;
             }
+
             p {
                 font-size: 13px;
                 margin-bottom: 15px;
@@ -596,47 +695,82 @@ footer {
 
     /* videos */
     #videos {
-        grid-template-columns: repeat(auto-fit, minmax(100%,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
 
     /* tour */
-    .tour-info{
+    .tour-info {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .tour-info h2,p,button {
-       margin-top: 15px;  
+    .tour-info h2,
+    p,
+    button {
+        margin-top: 15px;
     }
 
-    .tour-info button{
+    .tour-info button {
         width: 50% !important;
     }
-    #tour img{
+
+    #tour img {
         width: 90%;
     }
+
     /* Contacto */
-    .form-container{
+    .form-container {
         display: inline-block;
         margin: auto;
         text-align: center;
         padding: 20px;
+
         .form {
             width: 100%;
+
             .submit {
                 width: 100%;
             }
-            .checkbox{
+
+            .checkbox {
                 display: inline-block;
-                input{
+
+                input {
                     width: 30px;
                 }
-                label{
+
+                label {
                     font-size: 15px;
                 }
             }
         }
     }
-}
 
+    /* musica */
+    #newest-album {
+
+        div {
+            width: 90%;
+            margin-right: 0px;
+        }
+    }
+    
+    #play-albums{
+        margin: auto;
+        #album-display {
+            display: inline-block;
+            margin: auto;
+            margin-top: 50px;
+            .album-card{
+                margin: auto;
+                width: 90%;
+                margin-bottom: 30px;
+                img{
+                    width: 100%;
+                }
+            }
+        
+        }
+    }
+}
